@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colored Table Example</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50; /* Green header */
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Light gray for even rows */
+        }
+
+        tr:hover {
+            background-color: #ddd; /* Highlight on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Sample Colored Table</h1>
+    <table>
+        <tr>
+            <th>Drink</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>Coffee</td>
+            <td>Hot</td>
+        </tr>
+        <tr>
+            <td>Tea</td>
+            <td>Hot</td>
+        </tr>
+        <tr>
+            <td>Coca Cola</td>
+            <td>Cold</td>
+        </tr>
+    </table>
+</body>
+</html>
